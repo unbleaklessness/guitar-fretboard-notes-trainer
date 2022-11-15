@@ -91,7 +91,7 @@ let fretLocations = getFretLocations();
 
 let distanceBetweenFrets = [];
 let lastDistance = 0;
-for (let i = 0; i < nFrets - 1; i++) {
+for (let i = 0; i < nFrets; i++) {
     distanceBetweenFrets.push(fretLocations[i] - lastDistance);
     lastDistance = fretLocations[i];
 }
