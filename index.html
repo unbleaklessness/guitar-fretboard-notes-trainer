@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainer</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 2px;
+            border: none;
+            background-color: lightgray;
+            min-width: 75px;
+            font-size: 1.5em;
+        }
+        .wrong {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div>
+        <button class="note-a">A</button>
+        <button class="note-a-sharp">A#</button>
+        <button class="note-b">B</button>
+        <button class="note-c">C</button>
+        <button class="note-c-sharp">C#</button>
+        <button class="note-d">D</button>
+        <button class="note-d-sharp">D#</button>
+        <button class="note-e">E</button>
+        <button class="note-f">F</button>
+        <button class="note-f-sharp">F#</button>
+        <button class="note-g">G</button>
+        <button class="note-g-sharp">G#</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
